@@ -136,17 +136,27 @@ body{
   background-color: #FFF;
   border: 1.25px solid #F4F4F6;
   width: 20vw;
+  height: 16vw;
+  border-radius: 30.02276039123535px 30.02276039123535px 0px 0px;
+  box-shadow: 5.94564151763916px 71.34769439697266px 35.67384719848633px 0px #E5E5E5B2;
+  border-radius: 30px;
+}
+.dishes__top__element{
+  background-color: #FFF;
+  border: 1.25px solid #F4F4F6;
+  width: 11vw;
   height: 20vw;
   border-radius: 30.02276039123535px 30.02276039123535px 0px 0px;
   box-shadow: 5.94564151763916px 71.34769439697266px 35.67384719848633px 0px #E5E5E5B2;
+  border-radius: 30px;
 }
-.restaurants__top .container{
+.container{
   display: flex;
   flex-direction: column;
   align-content: center;
   flex-wrap: wrap;
 }
-.restaurant__top__block{
+.restaurant__top__block, .dishes__top__block{
   margin-bottom: 400px;
   width: 80%;
   height: 300px;
@@ -159,16 +169,32 @@ body{
   border-radius: 30.02276039123535px 30.02276039123535px 0px 0px;
   opacity: 0.10000000149011612px;
 }
-.restaurant__element__image{
+.dishes__element__image img{
+  width: 50%;
+  height: 100%;
+  top: 2156.69921875px;
+  left: 96px;
+}
+.restaurant__element__image, .dishes__element__image{
   width: 20vw;
   height: 10vw;
   padding: 0 !important;
 }
-.restaurant__top__block {
+.restaurant__top__block, .dishes__top__block {
   max-width: 1000px; 
   margin: 45px auto;
 }
-.restaurant__top__title{
+.restaurant__top__title, .dishes__title{
   display: flex;
   justify-content: center;
+}
+.restaurant__element__time, .restaurant__element__note, .dishes__element__time, .dishes__element__note {
+  display: inline-block;
+  padding: 10px 0 0 20px;
+}
+.restaurant__element__title, .dishes__element__title{
+  padding: 10px 0 0 20px;
+}
+.dishes__element__price{
+  padding: 15px 0 0 16px;
 }
